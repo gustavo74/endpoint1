@@ -1,6 +1,5 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-var_dump(Restserver);
 /**
  * ApiController1 Class Controller
  *
