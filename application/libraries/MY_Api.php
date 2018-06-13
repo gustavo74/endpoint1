@@ -22,7 +22,7 @@ class MY_Api
 	 *
 	 * @return void
 	*/
-	public function MY_Api()
+	public function __construct()
 	{
 		$this->status = true;
 	}
