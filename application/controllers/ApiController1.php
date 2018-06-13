@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-require_once(dirname(dirname(__FILE__))).'/libraries/REST_Controller.php';
+var_dump(Restserver);
 /**
  * ApiController1 Class Controller
  *
