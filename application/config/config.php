@@ -479,7 +479,6 @@ $config['proxy_ips'] = '';
  | need to include any file to any controller who extends REST_Controller.
  */
 function __autoload($classname) {
-var_dump($classname);
     if (strpos($classname, 'CI_') !== 0) {
         $file = APPPATH . 'libraries/' . $classname . '.php';
         if (file_exists($file) && is_file($file)) {
