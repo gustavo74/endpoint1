@@ -4,7 +4,8 @@
 
 //use Exception;
 //use stdClass;
-
+$file = APPPATH . 'libraries/Format.php';
+@include_once($file);
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
