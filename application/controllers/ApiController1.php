@@ -1,5 +1,9 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
+$file = APPPATH . 'libraries/REST_Controller.php';
+@include_once($file);
+$file = APPPATH . 'libraries/Format.php';
+@include_once($file);
 /**
  * ApiController1 Class Controller
  *

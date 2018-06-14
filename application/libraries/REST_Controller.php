@@ -1,11 +1,10 @@
 <?php
 
-//namespace Restserver\Libraries;
+namespace Restserver\Libraries;
 
-//use Exception;
-//use stdClass;
-$file = APPPATH . 'libraries/Format.php';
-@include_once($file);
+use Exception;
+use stdClass;
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**

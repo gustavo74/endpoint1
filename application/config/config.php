@@ -469,20 +469,3 @@ $config['time_reference'] = 'local';
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
-
-/*
-|--------------------------------------------------------------------------
-| Load automatic file
-|--------------------------------------------------------------------------
-|
-| Add this function on the top of your config.php file. In this way you don't
- | need to include any file to any controller who extends REST_Controller.
- */
-function __autoload($classname) {
-    if (strpos($classname, 'CI_') !== 0) {
-        $file = APPPATH . 'libraries/' . $classname . '.php';
-        if (file_exists($file) && is_file($file)) {
-            @include_once($file);
-        }
-    }
-}
