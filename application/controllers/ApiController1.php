@@ -43,7 +43,8 @@ class ApiController1 extends REST_Controller
     */
     public function API0_post()
     {
-        $API = new MY_Api();
+        $this->response(array('a'=>123), 200);
+        /*$API = new MY_Api();
     	$API->setConfig(array(
             'matriz'=>$this,
             'dataApi'=>__METHOD__
@@ -60,7 +61,7 @@ class ApiController1 extends REST_Controller
         else
         {
             $this->response($result, 200);
-        }
+        }*/
     }
 
     public static function setConstantDataAPI0_post($data)
